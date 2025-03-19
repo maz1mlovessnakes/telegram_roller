@@ -1,6 +1,6 @@
 {
-    "build": {
-      "outputDirectory": "webapp"
-    }
+    "rewrites": [
+      { "source": "/", "destination": "/webapp/index.html" }
+    ]
   }
   
